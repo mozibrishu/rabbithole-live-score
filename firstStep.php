@@ -11,4 +11,11 @@ echo $check = $html->find('div.ftb_details_header_name_pic h3', 1)->plaintext . 
 echo $check = $html->find('div.ftb_details_header_status label', 0)->plaintext . '<br />';
 echo $check = $html->find('div.ftb_details_header_status h3 a', 0)->plaintext . '<br />';
 
+$posts = ['key'=>'value'];
+echo json_encode($posts);
+// or
+$response = json_encode([
+    'posts' => $posts,
+]);
+file_put_contents('./myfile.json', json_encode($posts));
 ?>
