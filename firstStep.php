@@ -1,6 +1,6 @@
 <?php
 include_once('./simple_html_dom.php');
-$html = file_get_html("https://livescore.football365.com/south-africa-premier-soccer-league-chippa-united-vs-sekhukhune-united-fc/18-10-2022/2179656/overview");
+$html = file_get_html("https://livescore.football365.com/spain-laliga-sevilla-vs-valencia/18-10-2022/2144356/overview");
 
 // echo $html;
 // ftb_details_header_status
